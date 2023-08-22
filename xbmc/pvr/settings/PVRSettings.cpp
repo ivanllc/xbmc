@@ -174,7 +174,7 @@ void CPVRSettings::MarginTimeFiller(const SettingConstPtr& /*setting*/,
 
   static const int marginTimeValues[] =
   {
-    0, 1, 3, 5, 10, 15, 20, 30, 60, 90, 120, 180 // minutes
+    0, 1, 2, 3, 5, 10, 15, 20, 30, 60, 90, 120, 180 // minutes
   };
 
   for (int iValue : marginTimeValues)
